@@ -7,7 +7,7 @@ def factorial (number, count = 1):
         count *= i
     return count
 
-n = int(input('Enter the number: '))
+n = int(input('Введите число: '))
 print(f'Set of products of numbers from 1 to {n} = ', end = '')
 for i in range(1, n + 1):
     if i == n:
